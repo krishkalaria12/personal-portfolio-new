@@ -14,14 +14,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scrollbar-thumb-rounded-* scrollbar-thumb-blue-500 scrollbar-track-black h-32 overflow-y-scroll scrollbar-thin">
       <body className={cn(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )}>
           <main className="bg-[#060606] h-full min-h-screen">
           {children}
-            </main></body>
+            </main>
+      </body>
     </html>
   );
 }
