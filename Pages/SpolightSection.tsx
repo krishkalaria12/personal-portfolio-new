@@ -79,7 +79,7 @@ export function SpotlightPreview() {
         </div>
         </div>
         <div>
-          <Image src={"/IMG_1359-01-01.jpeg"} className="pointer-events-none w-full h-[300px] md:w-[400px] md:h-[500px]" width={400} height={500} alt="Profile Photo" />
+          <Image src={"/IMG_1359-01-01.jpeg"} className="pointer-events-none w-full h-[300px] md:w-[500px] md:h-[500px]" width={400} height={500} alt="Profile Photo" />
         </div>
       </div>
     </div>

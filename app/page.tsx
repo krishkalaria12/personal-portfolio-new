@@ -5,11 +5,13 @@ import { SpotlightPreview } from "@/Pages/SpolightSection";
 import ProjectSection from "@/Pages/ProjectSection";
 import ContactSection from "@/Pages/ContactSection";
 import { SkillsSection } from "@/Pages/SkillsSection";
+import AboutSection from "@/Pages/AboutSection"
 
 export default function Home() {
   return (
     <TracingBeam className="">
       <SpotlightPreview />
+      <AboutSection />
       <SkillsSection />
       <ProjectSection />
       <ContactSection />
