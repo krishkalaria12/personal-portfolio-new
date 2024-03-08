@@ -1,13 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { cn } from "@/lib/utils"
-import { Inter as FontSans } from "next/font/google"
+import { fontSans } from "@/components/font";
 import { Analytics } from '@vercel/analytics/react';
-
-export const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-})
 
 export const metadata: Metadata = {
   title: 'Krish Kalaria | Personal Portfolio',
