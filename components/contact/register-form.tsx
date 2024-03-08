@@ -47,7 +47,7 @@ export const RegisterForm = () => {
   };
 
   return (
-    <div className="w-[500px] mx-auto items-center justify-center flex flex-col py-4">
+    <div className="md:w-[500px] mx-auto items-center justify-center flex flex-col py-4">
       
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 w-full">

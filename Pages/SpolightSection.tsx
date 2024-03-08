@@ -12,10 +12,10 @@ export function SpotlightPreview() {
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
       />
-      <div className="flex items-center justify-around p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
+      <div className="flex md:flex-row flex-col md:space-y-0 space-y-6 items-center justify-around p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
         <div>
         <h1 className="text-3xl md:text-6xl font-bold  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-          <span className="text-blue-500 dark:text-blue-500">
+          <span className="text-blue-500 md:text-5xl text-6xl dark:text-blue-500">
             Krish Kalaria
           </span>
           <br />
@@ -40,6 +40,8 @@ export function SpotlightPreview() {
                     'MongoDB',
                     1000,
                     'MySQL',
+                    1000,
+                    'Mongooses',
                     1000,
                 ]}
                 speed={50}
@@ -77,7 +79,7 @@ export function SpotlightPreview() {
         </div>
         </div>
         <div>
-          <Image src={"/IMG_1359-01-01.jpeg"} className="pointer-events-none" width={400} height={500} alt="Profile Photo" />
+          <Image src={"/IMG_1359-01-01.jpeg"} className="pointer-events-none w-full h-[300px] md:w-[400px] md:h-[500px]" width={400} height={500} alt="Profile Photo" />
         </div>
       </div>
     </div>

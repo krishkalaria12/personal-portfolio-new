@@ -56,13 +56,13 @@ export const TextRevealCard = ({
       onMouseMove={mouseMoveHandler}
       ref={cardRef}
       className={cn(
-        "bg-transparent mx-auto w-[40rem] rounded-lg relative overflow-hidden",
+        "bg-transparent mx-auto rounded-lg relative overflow-hidden",
         className
       )}
     >
       {children}
 
-      <div className="relative flex items-center overflow-hidden">
+      <div className="relative justify-center  flex items-center overflow-hidden">
         <motion.div
           style={{
             width: "100%",
@@ -84,7 +84,7 @@ export const TextRevealCard = ({
             style={{
               textShadow: "4px 4px 15px rgba(0,0,0,0.5)",
             }}
-            className="text-base sm:text-[3rem] py-10 font-bold text-white bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-300"
+            className="text-2xl text-center sm:text-[3rem] py-10 font-bold text-white bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-300"
           >
             {revealText}
           </p>

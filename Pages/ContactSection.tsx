@@ -11,12 +11,14 @@ function ContactSection() {
         revealText="Feel Free to Contact "
         className="mx-auto"
       ></TextRevealCard>
-      <div className="flex items-center py-4 justify-between">
-        <RegisterForm />
+      <div className="flex md:flex-row flex-col-reverse items-center py-4 justify-between">
+        <div>
+          <RegisterForm />
+        </div>
         <div>
           <Image
             src={"/undraw-contact.svg"}
-            className="pointer-events-none"
+            className="pointer-events-none md:w-[400px] md:h-[400px] h-[200px] w-[200px]"
             width={400}
             height={500}
             alt="Contact Photo"

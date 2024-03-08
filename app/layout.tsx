@@ -2,11 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Inter as FontSans } from "next/font/google"
 import { cn } from "@/lib/utils"
+import { Analytics } from '@vercel/analytics/react';
 
 export const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 })
+
+export const metadata: Metadata = {
+  title: 'Innovative Creator | Passionate Developer | Continuous Learner',
+  description: 'Embarking on a journey to craft digital experiences through creative coding, web development, and innovative solutions. A dedicated individual with a passion for pushing boundaries, exploring new technologies, and fostering meaningful connections in the digital realm.',
+}
 
 export default function RootLayout({
   children,
@@ -21,6 +27,7 @@ export default function RootLayout({
         )}>
           <main className="bg-[#060606] h-full min-h-screen">
           {children}
+          <Analytics />
             </main>
       </body>
     </html>
