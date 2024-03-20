@@ -1,5 +1,5 @@
 import React from 'react'
-import { LampDemo } from './LampSection'
+import LampDemo from './LampSection'
 import {ThreeDCardDemo} from "@/components/ProjectCard"
 
 function ProjectSection() {

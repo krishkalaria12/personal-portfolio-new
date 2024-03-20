@@ -28,7 +28,7 @@ const skillsData: Skill[] = [
   
 ];
 
-export function SkillsSection() {
+function SkillsSection() {
   return (
     <div className="py-10 mb-6 w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <div>
@@ -64,3 +64,5 @@ export function SkillsSection() {
     </div>
   );
 }
+
+export default SkillsSection;

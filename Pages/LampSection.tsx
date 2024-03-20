@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamp";
 
-export function LampDemo() {
+function LampDemo() {
   return (
     <LampContainer>
       <motion.h1
@@ -32,3 +32,5 @@ export function LampDemo() {
     </LampContainer>
   );
 }
+
+export default LampDemo
